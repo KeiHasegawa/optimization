@@ -1,0 +1,36 @@
+f:
+	t0 := s[0]
+	t1 := t0 & 1
+	t2 := t0 >> 1
+	t3 := t2 & 3
+	t4 := t1 + t3
+	t5 := (int)t4
+	return t5
+
+const int 0
+const int 1
+const int 3
+const int 1
+const int 2
+int f(void)
+extern struct S s
+struct S
+	unsigned int a:1
+	unsigned int b:2
+		unsigned int t0
+		unsigned int t1
+		unsigned int t2
+		unsigned int t3
+		unsigned int t4
+		int t5
+
+const int 0
+const int 1
+const int 3
+const int 1
+const int 2
+int f(void)
+extern struct S s
+struct S
+	unsigned int a:1
+	unsigned int b:2

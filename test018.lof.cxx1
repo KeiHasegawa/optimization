@@ -1,0 +1,20 @@
+f:
+	n := 2
+	param 3
+	t0 := call g
+	n := t0 + 1
+
+const int 1
+const int 2
+const int 3
+void f(void)
+int g(int)
+int n
+		int t0
+
+const int 1
+const int 2
+const int 3
+void f(void)
+int g(int)
+int n

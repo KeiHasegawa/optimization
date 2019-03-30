@@ -1,0 +1,11 @@
+f:
+	t0 := (int)d
+	param d
+	param t0
+	param t0
+	call g
+
+void f(double)
+void g(double,int,int)
+	double d
+		int t0

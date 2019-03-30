@@ -1,0 +1,50 @@
+f:
+	y[0] := 'b'
+	y[1] := 'c'
+	y[2] := .integer1
+	t0 := &x
+	param t0
+	call g
+	t1 := &y
+	param t1
+	call g
+	x := y
+	t2 := &x
+	param t2
+	call g
+	t3 := &y
+	param t3
+	call g
+
+const char 'a'
+const char .integer1
+const int 0
+const char 'b'
+const char 'c'
+const int 1
+const int 2
+const int 3
+void f(void)
+void g(const struct S *)
+struct S x	(0,'a'),(1,.integer1),(2,.integer1),
+struct S
+	char c[3]
+		struct S y
+		struct S *t0
+		struct S *t1
+		struct S *t2
+		struct S *t3
+
+const char 'a'
+const char .integer1
+const int 0
+const char 'b'
+const char 'c'
+const int 1
+const int 2
+const int 3
+void f(void)
+void g(const struct S *)
+struct S x	(0,'a'),(1,.integer1),(2,.integer1),
+struct S
+	char c[3]

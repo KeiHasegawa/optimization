@@ -1,0 +1,11 @@
+f:
+	t0 := n
+	n := t0 + 1
+	param t0
+	call g
+
+const int 1
+void f(void)
+void g(int)
+int n
+		int t0

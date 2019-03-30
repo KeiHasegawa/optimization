@@ -1,0 +1,10 @@
+f:
+	t0 := &n
+	param t0
+	call g
+	return n
+
+int f(void)
+void g(int *)
+		int n
+		int *t0

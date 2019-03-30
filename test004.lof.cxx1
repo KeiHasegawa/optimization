@@ -1,0 +1,16 @@
+f:
+	n := 2
+	call g
+	n := n + 1
+
+const int 1
+const int 2
+void f(void)
+void g(void)
+int n
+
+const int 1
+const int 2
+void f(void)
+void g(void)
+int n

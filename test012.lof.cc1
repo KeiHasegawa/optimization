@@ -1,0 +1,15 @@
+f:
+	n := 2
+	p := &n
+	*p := 1
+	t0 := *p
+	param t0
+	call g
+
+const int 1
+const int 2
+void f(void)
+int g(int)
+		int n
+		int *p
+		int t0

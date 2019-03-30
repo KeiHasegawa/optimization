@@ -1,0 +1,21 @@
+f:
+	call g
+	param y
+	call h
+
+const int 0
+const int 1
+void f(struct S)
+void g(void)
+void h(struct S)
+struct S
+	int a
+	struct S y
+
+const int 0
+const int 1
+void f(struct S)
+void g(void)
+void h(struct S)
+struct S
+	int a

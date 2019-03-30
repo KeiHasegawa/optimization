@@ -1,0 +1,12 @@
+f:
+	t0 := a + b
+	t1 := t0 + t0
+	return t1
+
+int f(int,int)
+	int a
+	int b
+		int t0
+		int t1
+
+int f(int,int)

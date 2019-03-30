@@ -1,0 +1,15 @@
+f:
+	p := &a
+	param p
+	call g
+	a := 3
+	call h
+	param p
+	call g
+
+const int 3
+void f(void)
+void g(int *)
+void h(void)
+		int a
+		int *p

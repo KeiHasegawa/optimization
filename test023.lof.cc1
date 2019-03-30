@@ -1,0 +1,8 @@
+f:
+	param 2
+	call g
+
+const int 1
+const int 2
+void f(void)
+void g(int)

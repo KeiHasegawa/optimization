@@ -1,0 +1,25 @@
+f:
+	t0 := a + b
+	t1 := t0 - c
+	t2 := d + e
+	t3 := t1 * t2
+	t4 := t0 + t3
+	t5 := t3 - e
+	t6 := t4 * t5
+	return t6
+
+int f(int,int,int,int,int)
+	int a
+	int b
+	int c
+	int d
+	int e
+		int t0
+		int t1
+		int t2
+		int t3
+		int t4
+		int t5
+		int t6
+
+int f(int,int,int,int,int)

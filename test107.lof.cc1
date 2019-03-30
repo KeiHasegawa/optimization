@@ -1,0 +1,9 @@
+f:
+	t0 := x + x
+	return t0
+
+const int 1
+const int 2
+int f(int)
+	int x
+		int t0

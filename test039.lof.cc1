@@ -1,0 +1,21 @@
+f:
+	if x == 0 goto label0
+	t0[0] := 1
+	t0[4] := 2
+	goto label1
+	label0:
+	t0[0] := 7
+	t0[4] := 8
+	label1:
+	return t0
+
+const int 0
+const int 4
+const int 1
+const int 2
+const int 7
+const int 8
+struct S f(int)
+struct S
+	int x
+		struct S t0

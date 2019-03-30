@@ -1,0 +1,17 @@
+f:
+	t0 := &i
+	t1 := t0 + 4
+	param t0
+	param t1
+	call g
+
+const int 4
+const int 0
+const int 0
+const int 1
+const int 2
+void f(void)
+void g(int *,int *)
+		int i[2]
+		int *t0
+		int *t1

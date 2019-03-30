@@ -1,0 +1,18 @@
+f:
+	t0 := i << 2
+	t1 := a[t0]
+	t2 := j << 2
+	t3 := a[t2]
+	a[t0] := t3
+	a[t2] := t1
+
+const int 4
+const int 2
+extern int a[]
+void f(int,int)
+	int i
+	int j
+		int t0
+		int t1
+		int t2
+		int t3

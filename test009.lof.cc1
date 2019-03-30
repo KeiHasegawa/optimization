@@ -1,0 +1,14 @@
+f:
+	x := a + b
+	t0 := a - c
+	t1 := b + c
+	y := t0 + t1
+
+void f(int,int,int)
+int x
+int y
+	int a
+	int b
+	int c
+		int t0
+		int t1

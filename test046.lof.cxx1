@@ -1,0 +1,33 @@
+f:
+	t0 := n << 3
+	alloca a, t0
+	t1 := i << 3
+	goto label0
+	t2 := i << 3
+	label0:
+	t3 := i << 3
+	param 6.6
+	call g
+
+const int 8
+const int 3
+const double 4.4
+const double 5.5
+const double 6.6
+void f(int,int)
+void g(double)
+	int i
+	int n
+		double a[]
+		int t0
+		int t1
+		int t2
+		int t3
+
+const int 8
+const int 3
+const double 4.4
+const double 5.5
+const double 6.6
+void f(int,int)
+void g(double)

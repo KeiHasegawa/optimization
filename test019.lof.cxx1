@@ -1,0 +1,26 @@
+f:
+	p := fmt
+	ap := va_start fmt
+	t0 := va_arg ap ,int
+	param t0
+	call g
+	t1 := *p
+	t2 := (int)t1
+	param t2
+	call g
+
+typedef char *__gnuc_va_list
+void f(char *,...)
+void g(int)
+typedef char *va_list
+	char *fmt
+		char *ap
+		char *p
+		int t0
+		char t1
+		int t2
+
+typedef char *__gnuc_va_list
+void f(char *,...)
+void g(int)
+typedef char *va_list

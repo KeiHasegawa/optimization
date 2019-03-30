@@ -1,0 +1,12 @@
+f:
+	t0 := s
+	s := t0 + 1
+	return t0
+
+const int 1
+int f(void)
+		static int s
+		int t0
+
+const int 1
+int f(void)

@@ -1,0 +1,23 @@
+f:
+	label0:
+	t0 := &"abc"
+	param t0
+	call g
+	goto label0
+
+static char "abc"[4]	(0,'a'),(1,'b'),(2,'c'),(3,.integer4),
+const char 'a'
+const char 'b'
+const char 'c'
+const char .integer4
+void f(void)
+void g(char *)
+			char *t0
+
+static char "abc"[4]	(0,'a'),(1,'b'),(2,'c'),(3,.integer4),
+const char 'a'
+const char 'b'
+const char 'c'
+const char .integer4
+void f(void)
+void g(char *)

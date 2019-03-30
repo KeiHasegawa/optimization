@@ -1,0 +1,11 @@
+f:
+	t0 := n + 3
+	return t0
+
+const int 3
+int f(void)
+		int n
+		int t0
+
+const int 3
+int f(void)

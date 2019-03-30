@@ -1,0 +1,13 @@
+f:
+	a := 2
+	param 2
+	call g
+
+const int 2
+void f(void)
+void g(int)
+		extern int a
+
+const int 2
+void f(void)
+void g(int)

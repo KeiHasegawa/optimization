@@ -1,0 +1,27 @@
+f:
+	t0 := i << 2
+	a[t0] := 1
+	goto label0
+	t1 := i << 2
+	a[t1] := 2
+	label0:
+	t2 := i << 2
+	a[t2] := 3
+	t3 := &a
+	param t3
+	call g
+
+const int 4
+const int 2
+const int 1
+const int 10
+const int 2
+const int 3
+void f(int)
+void g(int *)
+	int i
+		int a[10]
+		int t0
+		int t1
+		int t2
+		int *t3

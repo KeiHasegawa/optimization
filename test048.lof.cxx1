@@ -1,0 +1,12 @@
+f:
+	*p := i
+	param i
+	call g
+
+void f(int *,int)
+void g(int)
+	int i
+	int *p
+
+void f(int *,int)
+void g(int)

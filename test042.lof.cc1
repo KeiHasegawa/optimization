@@ -1,0 +1,23 @@
+f:
+	t0 := i
+	i := t0 + 1
+	t1 := j
+	j := t1 + 1
+	if t0 <= t1 goto label0
+	t2 := i
+	goto label1
+	label0:
+	t2 := j
+	label1:
+	param t2
+	call g
+
+const int 1
+const int 0
+void f(int,int)
+void g(int)
+	int i
+	int j
+		int t0
+		int t1
+		int t2

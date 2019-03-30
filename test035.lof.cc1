@@ -1,0 +1,13 @@
+f:
+	n := 7
+	p := &n
+	t0 := &p
+	param t0
+	call g
+
+const int 7
+void f(void)
+void g(int **)
+		int n
+		int *p
+		int **t0

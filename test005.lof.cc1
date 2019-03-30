@@ -1,0 +1,11 @@
+f:
+	n := 2
+	*p := 3
+	n := n + 1
+
+const int 1
+const int 2
+const int 3
+void f(int *)
+int n
+	int *p

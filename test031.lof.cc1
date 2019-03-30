@@ -1,0 +1,14 @@
+f:
+	x[0] := 1
+	param x
+	call g
+	param y
+	call g
+
+const int 0
+const int 1
+void f(struct S)
+void g(struct S)
+struct S
+	struct S y
+		struct S x

@@ -1,0 +1,20 @@
+f:
+	iq := &x
+	param x
+	param y
+	call g
+	*iq := 5
+	param x
+	param y
+	call g
+
+const int 5
+void f(int,int)
+void g(int,int)
+	int x
+	int y
+		int *iq
+
+const int 5
+void f(int,int)
+void g(int,int)

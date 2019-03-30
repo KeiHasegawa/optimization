@@ -1,0 +1,13 @@
+f:
+	t0 := x >> 1
+	return t0
+
+const int 1
+const int 2
+int f(int)
+	int x
+		const int t0
+
+const int 1
+const int 2
+int f(int)

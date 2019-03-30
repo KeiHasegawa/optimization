@@ -1,0 +1,9 @@
+f:
+	a := b
+	c := d
+
+int a
+int b
+int c
+int d
+void f(void)

@@ -1,0 +1,17 @@
+f:
+	n := 2
+	p := &n
+	*p := 1
+	t0 := *p
+	return t0
+
+const int 1
+const int 2
+int f(void)
+		int n
+		int *p
+		int t0
+
+const int 1
+const int 2
+int f(void)

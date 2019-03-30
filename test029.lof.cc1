@@ -1,0 +1,31 @@
+f:
+	a := 0
+	b := 1
+	c := 2
+	t0 := &b
+	t1 := &c
+	param 0
+	param t0
+	param t1
+	call g
+	a := a + 1
+	t2 := &b
+	t3 := &c
+	param a
+	param t2
+	param t3
+	call g
+
+const int 1
+const int 0
+const int 1
+const int 2
+void f(void)
+void g(int,int *,int *)
+		int a
+		int b
+		int c
+		int *t0
+		int *t1
+		int *t2
+		int *t3

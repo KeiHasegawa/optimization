@@ -1,0 +1,19 @@
+f:
+	t0 := x + 1
+	t1 := x + 2
+	param t0
+	param t1
+	call g
+
+const int 1
+const int 2
+void f(int)
+void g(int,int)
+	int x
+		int t0
+		int t1
+
+const int 1
+const int 2
+void f(int)
+void g(int,int)

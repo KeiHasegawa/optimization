@@ -1,0 +1,20 @@
+f:
+	t0 := n << 3
+	alloca a, t0
+	param 1.0
+	call g
+	t1 := j << 3
+	param 2.0
+	call g
+
+const int 8
+const int 3
+const double 1.0
+const double 2.0
+void f(int,int)
+void g(double)
+	int j
+	int n
+		double a[]
+		int t0
+		int t1

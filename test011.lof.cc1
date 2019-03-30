@@ -1,0 +1,5 @@
+f:
+	call g
+
+void f(void)
+int g(void)

@@ -1,0 +1,13 @@
+f:
+	t0 := a + b
+	n := t0 + c
+
+void f(int,int,int)
+int n
+	int a
+	int b
+	int c
+		int t0
+
+void f(int,int,int)
+int n

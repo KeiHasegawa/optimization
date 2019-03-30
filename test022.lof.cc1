@@ -1,0 +1,21 @@
+f:
+	s[0] := 'a'
+	s[1] := 'b'
+	s[2] := 'c'
+	s[3] := .integer3
+	t0 := &s
+	param t0
+	call g
+
+const char 'a'
+const char 'b'
+const char 'c'
+const char .integer3
+const int 0
+const int 1
+const int 2
+const int 3
+void f(void)
+void g(char *)
+		char s[4]
+		char *t0

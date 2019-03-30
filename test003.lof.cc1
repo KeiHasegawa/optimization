@@ -1,0 +1,8 @@
+f:
+	t0 := 2 + 3
+	return t0
+
+const int 2
+const int 3
+int f(void)
+		int t0

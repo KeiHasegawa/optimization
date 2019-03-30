@@ -1,0 +1,8 @@
+f:
+	t0 := *p
+	*p := t0
+
+const int 0
+void f(int *)
+	int *p
+		int t0

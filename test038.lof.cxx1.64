@@ -1,0 +1,25 @@
+f:
+	s[0] := n
+	param n
+	t0 := call g
+	s[8] := t0
+	return s
+
+const int 0
+const int 8
+struct S f(int)
+float *g(int)
+struct S
+	int n
+	float *v
+	int n
+		struct S s
+		float *t0
+
+const int 0
+const int 8
+struct S f(int)
+float *g(int)
+struct S
+	int n
+	float *v
