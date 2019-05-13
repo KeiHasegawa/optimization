@@ -1,0 +1,20 @@
+f:
+	b := c[8]
+	t0 := c[0]
+	b[4] := t0
+	t1 := &b
+	param t1
+	call g
+
+const int 8
+const int 4
+const int 0
+void f(struct C)
+void g(struct B *)
+struct A
+struct B
+struct C
+	struct C c
+		struct B b
+		struct A t0
+		struct B *t1
