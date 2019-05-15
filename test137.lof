@@ -1,0 +1,21 @@
+f:
+	dst2 := src[0]
+	t0 := src[28]
+	dst2[4] := t0
+	t1 := &dst2
+	param t1
+	call g
+
+const int 0
+const int 4
+const int 28
+const int 20
+void f(struct C)
+void g(struct B *)
+struct A
+struct B
+struct C
+	struct C src
+		struct B dst2
+		struct A t0
+		struct B *t1
