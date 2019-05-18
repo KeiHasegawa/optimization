@@ -2,8 +2,10 @@ f:
 	t0 := n << 3
 	alloca a, t0
 	t1 := i << 3
+	a[t1] := 4.4
 	goto label0
 	t2 := i << 3
+	a[t2] := 5.5
 	label0:
 	t3 := i << 3
 	param 6.6
