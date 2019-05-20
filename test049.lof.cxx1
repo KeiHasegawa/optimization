@@ -1,0 +1,44 @@
+f:
+	if x == 0 goto label0
+	t0[0] := 1
+	t0[4] := 2
+	t0[8] := 3
+	goto label1
+	label0:
+	t0[0] := 4
+	t0[4] := 5
+	t0[8] := 6
+	label1:
+	return t0
+
+const int 0
+const int 4
+const int 8
+const int 1
+const int 2
+const int 3
+const int 4
+const int 5
+const int 6
+struct S f(int)
+struct S
+	int a
+	int b
+	int c
+	int x
+		struct S t0
+
+const int 0
+const int 4
+const int 8
+const int 1
+const int 2
+const int 3
+const int 4
+const int 5
+const int 6
+struct S f(int)
+struct S
+	int a
+	int b
+	int c
