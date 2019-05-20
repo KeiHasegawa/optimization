@@ -1,0 +1,13 @@
+f:
+	y[0] := ya
+	x := y
+	x[0] := xa
+	return x
+
+const int 0
+struct S f(struct S,int,int)
+struct S y
+struct S
+	struct S x
+	int xa
+	int ya
