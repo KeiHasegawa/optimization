@@ -1,0 +1,16 @@
+struct T1 { int x; };
+
+struct A : virtual public T1 { int a; };
+struct B : virtual public T1 { int b; };
+
+struct T2 : public A, public B { int y; };
+
+void g(int, int);
+
+void f(T2 src)
+{
+  A a = src;
+  B b = src;
+  g(a.x, a.a);
+  g(b.x, b.b);
+}
