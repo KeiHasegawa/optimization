@@ -1,13 +1,15 @@
 f:
 	if x == 0 goto label0
-	t0[0] := 1
-	t0[4] := 2
-	t0[8] := 3
+	.compound0[0] := 1
+	.compound0[4] := 2
+	.compound0[8] := 3
+	t0 := .compound0
 	goto label1
 	label0:
-	t0[0] := 4
-	t0[4] := 5
-	t0[8] := 6
+	.compound4[0] := 4
+	.compound4[4] := 5
+	.compound4[8] := 6
+	t0 := .compound4
 	label1:
 	return t0
 
@@ -23,4 +25,6 @@ const int 6
 struct S f(int)
 struct S
 	int x
+		struct S .compound0
+		struct S .compound4
 		struct S t0

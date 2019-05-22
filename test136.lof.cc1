@@ -1,9 +1,10 @@
 f:
-	b := c[8]
-	t0 := c[0]
-	b[4] := t0
-	t1 := &b
-	param t1
+	t0 := c[8]
+	b := t0
+	t1 := c[0]
+	b[4] := t1
+	t2 := &b
+	param t2
 	call g
 
 const int 8
@@ -16,5 +17,6 @@ struct B
 struct C
 	struct C c
 		struct B b
-		struct A t0
-		struct B *t1
+		struct B t0
+		struct A t1
+		struct B *t2

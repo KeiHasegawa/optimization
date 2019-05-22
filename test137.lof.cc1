@@ -1,9 +1,12 @@
 f:
-	dst2 := src[0]
-	t0 := src[28]
-	dst2[4] := t0
-	t1 := &dst2
-	param t1
+	t0 := src[0]
+	dst := t0
+	t1 := src[28]
+	dst[4] := t1
+	t2 := dst
+	dst2 := dst
+	t3 := &dst
+	param t3
 	call g
 
 const int 0
@@ -16,6 +19,9 @@ struct A
 struct B
 struct C
 	struct C src
+		struct B dst
 		struct B dst2
-		struct A t0
-		struct B *t1
+		struct B t0
+		struct A t1
+		struct B t2
+		struct B *t3

@@ -1,7 +1,9 @@
 f:
 	y[0] := ya
+	t0 := y
 	x := y
 	x[0] := xa
+	t1 := x
 	return x
 
 const int 0
@@ -11,3 +13,5 @@ struct S
 	struct S x
 	int xa
 	int ya
+		struct S t0
+		struct S t1

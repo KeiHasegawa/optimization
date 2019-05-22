@@ -3,6 +3,7 @@ f:
 	param n
 	t0 := call g
 	s[4] := t0
+	t1 := s
 	return s
 
 const int 0
@@ -13,3 +14,4 @@ struct S
 	int n
 		struct S s
 		float *t0
+		struct S t1

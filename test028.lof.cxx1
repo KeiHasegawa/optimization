@@ -1,6 +1,7 @@
 f:
 	y[0] := 1
 	y[4] := 2
+	x := y
 	param y
 	call g
 
@@ -13,6 +14,7 @@ void g(struct S)
 struct S
 	int m
 	int n
+		struct S x
 		struct S y
 
 const int 0
