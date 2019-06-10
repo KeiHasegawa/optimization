@@ -29,17 +29,20 @@ struct A
 	int (*.vbptr)[1]
 	static int .vbtbl[1]	(0,8),
 	inline A(void)
+	inline A(const struct A &)
 	int a
 struct B
 	int (*.vbptr)[1]
 	static int .vbtbl[1]	(0,8),
 	inline B(void)
+	inline B(const struct B &)
 	int b
 struct T1
 	int x
 struct T2
 	static int .vbtbl[2]	(0,28),(4,16),
 	inline T2(void)
+	inline T2(const struct T2 &)
 	int y
 	struct T2 src
 		struct A a
@@ -64,15 +67,18 @@ struct A
 	int (*.vbptr)[1]
 	static int .vbtbl[1]	(0,8),
 	inline A(void)
+	inline A(const struct A &)
 	int a
 struct B
 	int (*.vbptr)[1]
 	static int .vbtbl[1]	(0,8),
 	inline B(void)
+	inline B(const struct B &)
 	int b
 struct T1
 	int x
 struct T2
 	static int .vbtbl[2]	(0,28),(4,16),
 	inline T2(void)
+	inline T2(const struct T2 &)
 	int y
