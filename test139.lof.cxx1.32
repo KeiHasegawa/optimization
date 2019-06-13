@@ -2,19 +2,26 @@ f:
 	t0 := src[0]
 	t1 := src[28]
 	t0[8] := t1
-	a := t0
-	t2 := src[12]
-	t2[8] := t1
-	b := t2
-	t3 := t0[8]
-	t4 := t0[4]
-	param t3
-	param t4
+	t2 := &a
+	t3 := &t0
+	t4 := *t3
+	*t2 := t4
+	t5 := src[12]
+	t6 := src[28]
+	t5[8] := t6
+	t7 := &b
+	t8 := &t5
+	t9 := *t8
+	*t7 := t9
+	t10 := a[8]
+	t11 := a[4]
+	param t10
+	param t11
 	call g
-	t5 := b[8]
-	t6 := b[4]
-	param t5
-	param t6
+	t12 := b[8]
+	t13 := b[4]
+	param t12
+	param t13
 	call g
 
 const int 8
@@ -49,11 +56,18 @@ struct T2
 		struct B b
 		struct A t0
 		struct T1 t1
-		struct B t2
-		int t3
-		int t4
-		int t5
-		int t6
+		struct B t5
+		struct T1 t6
+		struct A *t2
+		struct A *t3
+		struct B *t7
+		struct B *t8
+		int t10
+		int t11
+		int t12
+		int t13
+				struct A t4
+				struct B t9
 
 const int 8
 const int 28
