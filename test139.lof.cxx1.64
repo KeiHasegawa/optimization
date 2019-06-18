@@ -2,19 +2,26 @@ f:
 	t0 := src[0]
 	t1 := src[28]
 	t0[12] := t1
-	a := t0
-	t2 := src[12]
-	t2[12] := t1
-	b := t2
-	t3 := t0[12]
-	t4 := t0[8]
-	param t3
-	param t4
+	t2 := &a
+	t3 := &t0
+	t4 := *t3
+	*t2 := t4
+	t5 := src[12]
+	t6 := src[28]
+	t5[12] := t6
+	t7 := &b
+	t8 := &t5
+	t9 := *t8
+	*t7 := t9
+	t10 := a[12]
+	t11 := a[8]
+	param t10
+	param t11
 	call g
-	t5 := b[12]
-	t6 := b[8]
-	param t5
-	param t6
+	t12 := b[12]
+	t13 := b[8]
+	param t12
+	param t13
 	call g
 
 const int 12
@@ -29,28 +36,38 @@ struct A
 	int (*.vbptr)[1]
 	static int .vbtbl[1]	(0,12),
 	inline A(void)
+	inline A(const struct A &)
 	int a
 struct B
 	int (*.vbptr)[1]
 	static int .vbtbl[1]	(0,12),
 	inline B(void)
+	inline B(const struct B &)
 	int b
 struct T1
 	int x
 struct T2
 	static int .vbtbl[2]	(0,28),(4,16),
 	inline T2(void)
+	inline T2(const struct T2 &)
 	int y
 	struct T2 src
 		struct A a
 		struct B b
 		struct A t0
 		struct T1 t1
-		struct B t2
-		int t3
-		int t4
-		int t5
-		int t6
+		struct B t5
+		struct T1 t6
+		struct A *t2
+		struct A *t3
+		struct B *t7
+		struct B *t8
+		int t10
+		int t11
+		int t12
+		int t13
+				struct A t4
+				struct B t9
 
 const int 12
 const int 28
@@ -64,15 +81,18 @@ struct A
 	int (*.vbptr)[1]
 	static int .vbtbl[1]	(0,12),
 	inline A(void)
+	inline A(const struct A &)
 	int a
 struct B
 	int (*.vbptr)[1]
 	static int .vbtbl[1]	(0,12),
 	inline B(void)
+	inline B(const struct B &)
 	int b
 struct T1
 	int x
 struct T2
 	static int .vbtbl[2]	(0,28),(4,16),
 	inline T2(void)
+	inline T2(const struct T2 &)
 	int y
