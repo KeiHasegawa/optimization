@@ -38,6 +38,7 @@ struct A
 	inline A(void)
 	inline A(const struct A &)
 	inline A.T1(void)
+	inline A.body(void)
 	int a
 struct B
 	int (*.vbptr)[1]
@@ -45,6 +46,7 @@ struct B
 	inline B(void)
 	inline B(const struct B &)
 	inline B.T1(void)
+	inline B.body(void)
 	int b
 struct T1
 	int x
@@ -85,6 +87,7 @@ struct A
 	inline A(void)
 	inline A(const struct A &)
 	inline A.T1(void)
+	inline A.body(void)
 	int a
 struct B
 	int (*.vbptr)[1]
@@ -92,6 +95,7 @@ struct B
 	inline B(void)
 	inline B(const struct B &)
 	inline B.T1(void)
+	inline B.body(void)
 	int b
 struct T1
 	int x
