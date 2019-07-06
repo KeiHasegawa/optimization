@@ -37,12 +37,14 @@ struct A
 	static int .vbtbl[1]	(0,12),
 	inline A(void)
 	inline A(const struct A &)
+	inline A.T1(void)
 	int a
 struct B
 	int (*.vbptr)[1]
 	static int .vbtbl[1]	(0,12),
 	inline B(void)
 	inline B(const struct B &)
+	inline B.T1(void)
 	int b
 struct T1
 	int x
@@ -82,12 +84,14 @@ struct A
 	static int .vbtbl[1]	(0,12),
 	inline A(void)
 	inline A(const struct A &)
+	inline A.T1(void)
 	int a
 struct B
 	int (*.vbptr)[1]
 	static int .vbtbl[1]	(0,12),
 	inline B(void)
 	inline B(const struct B &)
+	inline B.T1(void)
 	int b
 struct T1
 	int x
