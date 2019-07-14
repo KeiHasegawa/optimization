@@ -30,6 +30,7 @@ const int 28
 const int 16
 const int 12
 const int 4
+const int 24
 void f(struct T2)
 void g(int,int)
 struct A
@@ -77,6 +78,7 @@ const int 28
 const int 16
 const int 12
 const int 4
+const int 24
 void f(struct T2)
 void g(int,int)
 struct A
