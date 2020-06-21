@@ -61,10 +61,10 @@ struct T2
 		struct B b
 		struct A t0
 		struct T1 t1
-		struct B t5
-		struct T1 t6
 		struct A *t2
 		struct A *t3
+		struct B t5
+		struct T1 t6
 		struct B *t7
 		struct B *t8
 		int t10
