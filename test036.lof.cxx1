@@ -1,6 +1,6 @@
 f:
 	t0 := n << 3
-	alloca a, t0
+	a:= alloca t0
 	param 1.0
 	call g
 	t1 := j << 3
