@@ -50,6 +50,11 @@ CC1_SPECIAL_FLAG = --no-generator --output-medium --simple-medium
 	$(DOGV) $(DIFF) $< $@
 	$(TOUCH) $@
 
+test019.lof:test019.log
+	./conv.test019 test019.log
+	$(DOGV) $(DIFF) $< $@
+	$(TOUCH) $@
+
 clean:
 	$(RM) *.log *.exe *.x *.s *.i *.stackdump core.* a.out core *~
 
