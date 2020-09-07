@@ -69,17 +69,12 @@ typedef char *va_list
 template struct __vcrt_assert_va_start_is_not_reference
 struct __vcrt_assert_va_start_is_not_reference<char *>
 	char .dummy
-template struct __vcrt_va_list_is_reference
-struct __vcrt_va_list_is_reference<char *>
 	const int __the_value
 	enum .tag34
-struct __vcrt_va_list_is_reference<class _Ty &&>
 	const int __the_value
 	enum .tag9
-struct __vcrt_va_list_is_reference<class _Ty &>
 	const int __the_value
 	enum .tag7
-struct __vcrt_va_list_is_reference<class _Ty.0000026C7933B6E0>
 	const int __the_value
 	enum .tag10
 	char *fmt
@@ -149,16 +144,11 @@ typedef char *va_list
 template struct __vcrt_assert_va_start_is_not_reference
 struct __vcrt_assert_va_start_is_not_reference<char *>
 	char .dummy
-template struct __vcrt_va_list_is_reference
-struct __vcrt_va_list_is_reference<char *>
 	const int __the_value
 	enum .tag34
-struct __vcrt_va_list_is_reference<class _Ty &&>
 	const int __the_value
 	enum .tag9
-struct __vcrt_va_list_is_reference<class _Ty &>
 	const int __the_value
 	enum .tag7
-struct __vcrt_va_list_is_reference<class _Ty.0000026C7933B6E0>
 	const int __the_value
 	enum .tag10
