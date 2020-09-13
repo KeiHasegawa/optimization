@@ -1,0 +1,46 @@
+f:
+	p := fmt
+	ap := va_start fmt
+	t0 := ap + .integer1
+	t1 := t0 - .integer1
+	t2 := (int *)t1
+	t3 := *t2
+	param t3
+	call g
+	t4 := *p
+	t5 := (int)t4
+	param t5
+	call g
+
+const unsigned int .integer0
+const unsigned int .integer1
+const int 0
+const unsigned int .integer3
+const unsigned int .integer4
+const unsigned int .integer5
+const int 1
+const int 0
+const int 1
+void __report_gsfailure(unsigned long long int)
+void __security_check_cookie(unsigned long long int)
+extern unsigned long long int __security_cookie
+void __security_init_cookie(void)
+void __va_start(char **,...)
+typedef int __vcrt_bool
+void f(char *,...)
+void g(int)
+typedef long long int intptr_t
+typedef long long int ptrdiff_t
+typedef unsigned long long int size_t
+typedef unsigned long long int uintptr_t
+typedef char *va_list
+typedef unsigned short int wchar_t
+	char *fmt
+		char *ap
+		char *p
+		char *t0
+		char *t1
+		int *t2
+		int t3
+		char t4
+		int t5
