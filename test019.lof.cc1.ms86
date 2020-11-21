@@ -3,8 +3,8 @@ f:
 	t0 := &fmt
 	t1 := (char *)t0
 	t2 := t1 + .integer0
-	t3 := t2 + .integer0
-	t4 := t3 - .integer0
+	t3 := t2 + .integer1
+	t4 := t3 - .integer1
 	t5 := (int *)t4
 	t6 := *t5
 	param t6
@@ -20,7 +20,9 @@ const unsigned int .integer2
 const unsigned int .integer3
 const unsigned int .integer4
 const unsigned int .integer5
+const unsigned int .integer6
 const int 1
+const unsigned int .integer8
 const int 1
 void __report_gsfailure(void)
 void __security_check_cookie(unsigned int)
