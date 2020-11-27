@@ -2,8 +2,8 @@ f:
 	p := fmt
 	t0 := &fmt
 	t1 := t0 + .integer34
-	t2 := t1 + .integer35
-	t3 := t2 - .integer35
+	t2 := t1 + .integer34
+	t3 := t2 - .integer34
 	t4 := (int *)t3
 	t5 := *t4
 	param t5
@@ -48,8 +48,6 @@ const unsigned int .integer36
 const unsigned int .integer37
 const unsigned int .integer38
 const unsigned int .integer39
-const unsigned int .integer40
-const unsigned int .integer41
 const int 1
 const int 2
 const int 1
@@ -125,8 +123,6 @@ const unsigned int .integer36
 const unsigned int .integer37
 const unsigned int .integer38
 const unsigned int .integer39
-const unsigned int .integer40
-const unsigned int .integer41
 const int 1
 const int 2
 const int 1
