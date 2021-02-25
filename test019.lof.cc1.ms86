@@ -1,0 +1,48 @@
+f:
+	p := fmt
+	t0 := &fmt
+	t1 := (char *)t0
+	t2 := t1 + .integer0
+	t3 := t2 + .integer0
+	t4 := t3 - .integer0
+	t5 := (int *)t4
+	t6 := *t5
+	param t6
+	call g
+	t7 := *p
+	t8 := (int)t7
+	param t8
+	call g
+
+const unsigned int .integer0
+const unsigned int .integer1
+const unsigned int .integer2
+const unsigned int .integer3
+const unsigned int .integer4
+const unsigned int .integer5
+const int 1
+const int 1
+void __report_gsfailure(void)
+void __security_check_cookie(unsigned int)
+extern unsigned int __security_cookie
+void __security_init_cookie(void)
+typedef int __vcrt_bool
+void f(char *,...)
+void g(int)
+typedef int intptr_t
+typedef int ptrdiff_t
+typedef unsigned int size_t
+typedef unsigned int uintptr_t
+typedef char *va_list
+typedef unsigned short int wchar_t
+	char *fmt
+		char *p
+		char **t0
+		char *t1
+		char *t2
+		char *t3
+		char *t4
+		int *t5
+		int t6
+		char t7
+		int t8
