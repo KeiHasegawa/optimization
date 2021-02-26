@@ -1,6 +1,5 @@
 f:
 	a[0] := 1
-	a[4] := 2
 
 const int 0
 const int 4

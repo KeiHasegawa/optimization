@@ -8,6 +8,8 @@ f:
 	call g
 
 const char 'a'
+const int 98
+const int 99
 const char 'b'
 const char 'c'
 const char .integer4
@@ -15,12 +17,15 @@ const int 0
 const int 1
 const int 2
 const int 3
+const int 97
 void f(void)
 void g(char *)
 		char s[4]
 		char *t0
 
 const char 'a'
+const int 98
+const int 99
 const char 'b'
 const char 'c'
 const char .integer4
@@ -28,5 +33,6 @@ const int 0
 const int 1
 const int 2
 const int 3
+const int 97
 void f(void)
 void g(char *)

@@ -3,7 +3,6 @@ f:
 	a:= alloca t0
 	param 1.0
 	call g
-	t1 := j << 3
 	param 2.0
 	call g
 
@@ -17,7 +16,6 @@ void g(double)
 	int n
 		double a[]
 		int t0
-		int t1
 
 const int 8
 const int 3

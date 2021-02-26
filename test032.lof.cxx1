@@ -1,7 +1,6 @@
 f:
-	t0 := &x
-	t1 := x[52]
-	param t1
+	t0 := x[52]
+	param t0
 	call g
 
 const int 20
@@ -15,8 +14,7 @@ const int 5
 void f(void)
 void g(int)
 int x[3][5]
-		int *t0
-		int t1
+		int t0
 
 const int 20
 const int 40

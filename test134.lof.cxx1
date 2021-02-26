@@ -18,7 +18,11 @@ const int 4
 const int 5
 const unsigned int .integer15
 const int 6
+const int 104
+const int 101
+const int 108
 const char 'e'
+const int 111
 const char 'l'
 const char 'o'
 const char .integer5
@@ -40,7 +44,11 @@ const int 4
 const int 5
 const unsigned int .integer15
 const int 6
+const int 104
+const int 101
+const int 108
 const char 'e'
+const int 111
 const char 'l'
 const char 'o'
 const char .integer5
