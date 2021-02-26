@@ -1,8 +1,6 @@
 f:
-	t0 := a + b
 
 void f(int,int,int)
 	int a
 	int b
 	int c
-		int t0

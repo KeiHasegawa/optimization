@@ -18,6 +18,10 @@ const char 'r'
 const char 'd'
 const unsigned int .integer14
 const int 6
+const int 104
+const int 101
+const int 108
+const int 111
 const char 'l'
 const char 'o'
 const char .integer4

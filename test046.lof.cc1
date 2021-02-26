@@ -5,9 +5,7 @@ f:
 	a[t1] := 4.4
 	goto label0
 	t2 := i << 3
-	a[t2] := 5.5
 	label0:
-	t3 := i << 3
 	param 6.6
 	call g
 
@@ -24,4 +22,3 @@ void g(double)
 		int t0
 		int t1
 		int t2
-		int t3

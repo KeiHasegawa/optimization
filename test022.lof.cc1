@@ -9,12 +9,15 @@ f:
 
 const char 'a'
 const char 'b'
+const int 99
 const char 'c'
 const char .integer3
 const int 0
 const int 1
 const int 2
 const int 3
+const int 97
+const int 98
 void f(void)
 void g(char *)
 		char s[4]
