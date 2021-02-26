@@ -1,3 +1,7 @@
+/*
+ * Example 10.40, Chapter 10 "Optimization", C compiler document
+ */
+
 #include <stdarg.h>
 
 void g(int);
