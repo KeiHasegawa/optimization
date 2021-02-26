@@ -1,0 +1,8 @@
+g:
+	return 12
+
+const int 12
+const int 3
+const int 96
+inline int f(int,int)
+int g(void)

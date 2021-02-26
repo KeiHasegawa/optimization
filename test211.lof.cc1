@@ -1,0 +1,7 @@
+g:
+	return -13
+
+const int -13
+const int 12
+inline int f(int)
+int g(void)
