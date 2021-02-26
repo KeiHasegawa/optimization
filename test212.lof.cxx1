@@ -1,0 +1,12 @@
+g:
+	return 12
+
+const int 12
+const double 12.34
+inline int f(double)
+int g(void)
+
+const int 12
+const double 12.34
+inline int f(double)
+int g(void)

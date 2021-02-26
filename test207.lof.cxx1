@@ -1,0 +1,14 @@
+g:
+	return 8
+
+const int 8
+const int 10
+const int 12
+inline int f(int,int)
+int g(void)
+
+const int 8
+const int 10
+const int 12
+inline int f(int,int)
+int g(void)

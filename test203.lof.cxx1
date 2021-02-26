@@ -1,0 +1,14 @@
+g:
+	return 5
+
+const int 5
+const int 17
+const int 3
+inline int f(int,int)
+int g(void)
+
+const int 5
+const int 17
+const int 3
+inline int f(int,int)
+int g(void)
