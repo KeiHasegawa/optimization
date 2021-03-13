@@ -2,10 +2,6 @@ f:
 	t0 := n << 3
 	a:= alloca t0
 	t1 := i << 3
-	a[t1] := 4.4
-	goto label0
-	t2 := i << 3
-	label0:
 	param 6.6
 	call g
 
@@ -21,7 +17,6 @@ void g(double)
 		double a[]
 		int t0
 		int t1
-		int t2
 
 const int 8
 const int 3
