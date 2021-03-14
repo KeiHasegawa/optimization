@@ -3,7 +3,7 @@ f:
 	param t0
 	call g
 
-static char "efgh"[5]	(0,'e'),(1,'f'),(2,'g'),(3,'h'),(4,.integer5),
+static const char "efgh"[5]	(0,'e'),(1,'f'),(2,'g'),(3,'h'),(4,.integer5),
 const char 'a'
 const char 'b'
 const char 'c'
@@ -18,7 +18,7 @@ void f(void)
 extern void g(const char *)
 		const char *t0
 
-static char "efgh"[5]	(0,'e'),(1,'f'),(2,'g'),(3,'h'),(4,.integer5),
+static const char "efgh"[5]	(0,'e'),(1,'f'),(2,'g'),(3,'h'),(4,.integer5),
 const char 'a'
 const char 'b'
 const char 'c'

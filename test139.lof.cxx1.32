@@ -34,16 +34,16 @@ const int 4
 void f(struct T2)
 void g(int,int)
 struct A
-	int (*.vbptr)[1]
-	static int .vbtbl[1]	(0,8),
+	const int (*.vbptr)[1]
+	static const int .vbtbl[1]	(0,8),
 	inline A(void)
 	inline A(const struct A &)
 	inline A.T1(void)
 	inline A.T1(const struct A &)
 	int a
 struct B
-	int (*.vbptr)[1]
-	static int .vbtbl[1]	(0,8),
+	const int (*.vbptr)[1]
+	static const int .vbtbl[1]	(0,8),
 	inline B(void)
 	inline B(const struct B &)
 	inline B.T1(void)
@@ -52,7 +52,7 @@ struct B
 struct T1
 	int x
 struct T2
-	static int .vbtbl[2]	(0,28),(4,16),
+	static const int .vbtbl[2]	(0,28),(4,16),
 	inline T2(void)
 	inline T2(const struct T2 &)
 	int y
@@ -84,16 +84,16 @@ const int 4
 void f(struct T2)
 void g(int,int)
 struct A
-	int (*.vbptr)[1]
-	static int .vbtbl[1]	(0,8),
+	const int (*.vbptr)[1]
+	static const int .vbtbl[1]	(0,8),
 	inline A(void)
 	inline A(const struct A &)
 	inline A.T1(void)
 	inline A.T1(const struct A &)
 	int a
 struct B
-	int (*.vbptr)[1]
-	static int .vbtbl[1]	(0,8),
+	const int (*.vbptr)[1]
+	static const int .vbtbl[1]	(0,8),
 	inline B(void)
 	inline B(const struct B &)
 	inline B.T1(void)
@@ -102,7 +102,7 @@ struct B
 struct T1
 	int x
 struct T2
-	static int .vbtbl[2]	(0,28),(4,16),
+	static const int .vbtbl[2]	(0,28),(4,16),
 	inline T2(void)
 	inline T2(const struct T2 &)
 	int y
